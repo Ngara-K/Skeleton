@@ -1,4 +1,4 @@
-package com.ethanhua.skeleton;
+package com.ngarak.skeleton;
 
 /**
  * Instrumentation test, which will execute on an Android device.

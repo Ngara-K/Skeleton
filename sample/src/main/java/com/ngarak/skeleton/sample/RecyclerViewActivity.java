@@ -1,4 +1,4 @@
-package com.ethanhua.skeleton.sample;
+package com.ngarak.skeleton.sample;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,14 +10,10 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ethanhua.skeleton.Skeleton;
-import com.ethanhua.skeleton.SkeletonScreen;
-import com.ethanhua.skeleton.sample.adapter.NewsAdapter;
-import com.ethanhua.skeleton.sample.adapter.PersonAdapter;
-
-/**
- * Created by ethanhua on 2017/7/27.
- */
+import com.ngarak.skeleton.Skeleton;
+import com.ngarak.skeleton.SkeletonScreen;
+import com.ngarak.skeleton.sample.adapter.NewsAdapter;
+import com.ngarak.skeleton.sample.adapter.PersonAdapter;
 
 public class RecyclerViewActivity extends AppCompatActivity {
 

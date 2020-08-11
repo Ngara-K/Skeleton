@@ -1,24 +1,20 @@
-package com.ethanhua.skeleton;
+package com.ngarak.skeleton;
 
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by ethanhua on 2017/8/2.
- */
-
 public class ViewReplacer {
     private static final String TAG = ViewReplacer.class.getName();
     private final View mSourceView;
+    private final ViewGroup.LayoutParams mSourceViewLayoutParams;
+    private final int mSourceViewId;
     private View mTargetView;
     private int mTargetViewResID = -1;
     private View mCurrentView;
     private ViewGroup mSourceParentView;
-    private final ViewGroup.LayoutParams mSourceViewLayoutParams;
     private int mSourceViewIndexInParent = 0;
-    private final int mSourceViewId;
 
     public ViewReplacer(View sourceView) {
         mSourceView = sourceView;

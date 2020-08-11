@@ -1,4 +1,4 @@
-package com.ethanhua.skeleton.sample.adapter;
+package com.ngarak.skeleton.sample.adapter;
 
 import android.util.SparseArray;
 import android.view.View;

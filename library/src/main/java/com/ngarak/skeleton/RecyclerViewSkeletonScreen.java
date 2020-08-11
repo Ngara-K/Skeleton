@@ -1,4 +1,4 @@
-package com.ethanhua.skeleton;
+package com.ngarak.skeleton;
 
 import androidx.annotation.ArrayRes;
 import androidx.annotation.ColorRes;
@@ -6,10 +6,6 @@ import androidx.annotation.IntRange;
 import androidx.annotation.LayoutRes;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
-
-/**
- * Created by ethanhua on 2017/7/29.
- */
 
 public class RecyclerViewSkeletonScreen implements SkeletonScreen {
 
@@ -46,8 +42,8 @@ public class RecyclerViewSkeletonScreen implements SkeletonScreen {
     }
 
     public static class Builder {
-        private RecyclerView.Adapter mActualAdapter;
         private final RecyclerView mRecyclerView;
+        private RecyclerView.Adapter mActualAdapter;
         private boolean mShimmer = true;
         private int mItemCount = 10;
         private int mItemResID = R.layout.layout_default_item_skeleton;

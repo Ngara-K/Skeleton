@@ -1,4 +1,4 @@
-package com.ethanhua.skeleton.sample;
+package com.ngarak.skeleton.sample;
 
 import android.content.Intent;
 import android.os.Bundle;

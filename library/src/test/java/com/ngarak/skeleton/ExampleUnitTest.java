@@ -1,4 +1,4 @@
-package com.ethanhua.skeleton;
+package com.ngarak.skeleton;
 
 import static org.junit.Assert.assertEquals;
 

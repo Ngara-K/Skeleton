@@ -1,14 +1,10 @@
-package com.ethanhua.skeleton;
+package com.ngarak.skeleton;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
-
-/**
- * Created by ethanhua on 2017/7/29.
- */
 
 public class ShimmerViewHolder extends RecyclerView.ViewHolder {
 

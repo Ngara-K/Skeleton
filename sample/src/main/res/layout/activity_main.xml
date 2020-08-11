@@ -6,7 +6,7 @@
     android:gravity="center_horizontal"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context="com.ethanhua.skeleton.sample.MainActivity">
+    tools:context="com.ngarak.skeleton.sample.MainActivity">
 
     <Button
         android:id="@+id/btn_list"

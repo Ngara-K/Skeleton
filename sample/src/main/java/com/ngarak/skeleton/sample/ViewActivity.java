@@ -1,4 +1,4 @@
-package com.ethanhua.skeleton.sample;
+package com.ngarak.skeleton.sample;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,9 +10,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ethanhua.skeleton.Skeleton;
-import com.ethanhua.skeleton.SkeletonScreen;
-import com.ethanhua.skeleton.sample.adapter.TopicAdapter;
+import com.ngarak.skeleton.Skeleton;
+import com.ngarak.skeleton.SkeletonScreen;
+import com.ngarak.skeleton.sample.adapter.TopicAdapter;
 
 import java.lang.ref.WeakReference;
 

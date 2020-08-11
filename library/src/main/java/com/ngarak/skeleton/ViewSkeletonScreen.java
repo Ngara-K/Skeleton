@@ -1,20 +1,17 @@
-package com.ethanhua.skeleton;
+package com.ngarak.skeleton;
 
-import androidx.annotation.ColorRes;
-import androidx.annotation.IntRange;
-import androidx.annotation.LayoutRes;
-import androidx.core.content.ContextCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 
-import io.supercharge.shimmerlayout.ShimmerLayout;
+import androidx.annotation.ColorRes;
+import androidx.annotation.IntRange;
+import androidx.annotation.LayoutRes;
+import androidx.core.content.ContextCompat;
 
-/**
- * Created by ethanhua on 2017/7/29.
- */
+import io.supercharge.shimmerlayout.ShimmerLayout;
 
 public class ViewSkeletonScreen implements SkeletonScreen {
     private static final String TAG = ViewSkeletonScreen.class.getName();

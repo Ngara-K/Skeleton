@@ -1,4 +1,4 @@
-package com.ethanhua.skeleton;
+package com.ngarak.skeleton;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -7,10 +7,6 @@ import androidx.annotation.IntRange;
 import androidx.recyclerview.widget.RecyclerView;
 
 import io.supercharge.shimmerlayout.ShimmerLayout;
-
-/**
- * Created by ethanhua on 2017/7/29.
- */
 
 public class SkeletonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
@@ -49,7 +45,7 @@ public class SkeletonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
     @Override
     public int getItemViewType(int position) {
-        if(doesArrayOfLayoutsExist()) {
+        if (doesArrayOfLayoutsExist()) {
             return getCorrectLayoutItem(position);
         }
         return super.getItemViewType(position);
@@ -65,16 +61,16 @@ public class SkeletonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         return mItemCount;
     }
 
+    public void setItemCount(int itemCount) {
+        this.mItemCount = itemCount;
+    }
+
     public void setLayoutReference(int layoutReference) {
         this.mLayoutReference = layoutReference;
     }
 
     public void setArrayOfLayoutReferences(int[] layoutReferences) {
         this.mLayoutArrayReferences = layoutReferences;
-    }
-
-    public void setItemCount(int itemCount) {
-        this.mItemCount = itemCount;
     }
 
     public void setShimmerColor(int color) {
@@ -94,7 +90,7 @@ public class SkeletonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
     }
 
     public int getCorrectLayoutItem(int position) {
-        if(doesArrayOfLayoutsExist()) {
+        if (doesArrayOfLayoutsExist()) {
             return mLayoutArrayReferences[position % mLayoutArrayReferences.length];
         }
         return mLayoutReference;

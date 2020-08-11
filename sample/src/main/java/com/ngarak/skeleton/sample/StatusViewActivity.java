@@ -1,4 +1,4 @@
-package com.ethanhua.skeleton.sample;
+package com.ngarak.skeleton.sample;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.ethanhua.skeleton.ViewReplacer;
+import com.ngarak.skeleton.ViewReplacer;
 
 public class StatusViewActivity extends AppCompatActivity {
     private ViewReplacer mViewReplacer;
